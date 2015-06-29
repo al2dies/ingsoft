@@ -20,8 +20,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registro Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -49,7 +49,7 @@ type="text/css" />
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title"><font face="gabriola" color="#FD4141">~ Actualizacion de datos ~ EX-Alumnos ~</font></h1>
+        <h1 class="blog-title"><font face="gabriola" color="#FD4141">Actualizacion de datos EX-Alumnos </font></h1>
          <h2 class="blog-title"><font face="gabriola" color="#FD4141">Por favor Ingrese el Nit del EX-Alumno</font></h2><br></br>
         
   <table width="40%" height="100" border="0" align="left" cellpadding="11" cellspacing="11">

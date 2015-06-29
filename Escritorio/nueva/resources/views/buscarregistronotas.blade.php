@@ -56,8 +56,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registrar Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -85,7 +85,7 @@ type="text/css" />
     <div class="container">
 
       <div class="blog-header">
-       <center> <h1 class="blog-title"><font face="gabriola" color="#FD4141">~ Modificar Notas ~ Alumnos ~</font></h1>
+       <center> <h1 class="blog-title"><font face="gabriola" color="#FD4141"> Modificar Notas del Alumnos </font></h1>
          <h2 class="blog-title"><font face="gabriola" color="#FD4141">Por favor Ingrese el Nit del registro de nota</font></h2></br>
           <form id="form1" name="form1" method="get" action="{!!route('modificarnotafinal')!!}" >
 <center><table width="20" height="70" border="0" align="center" ></center>
@@ -146,7 +146,7 @@ type="text/css" />
     </label>     
     </td>
         <td>
- <button type="submit" style="background:#FD4141; width:90px; height:35px" name="submit" ><font size="5"color="black" face="gabriola">Modificar</font></button></a></td>
+ <button type="submit" style="background:#891B1B; width:90px; height:35px" name="submit" ><font size="5"color="white" face="gabriola">Modificar</font></button></a></td>
     </tr>
     <tr><td>
     <tr><td>

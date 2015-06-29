@@ -37,7 +37,7 @@ $sql = "UPDATE `alumnos` SET `nombre` = '$nombre',`apellido` = '$apellido',`edad
 `anio` = '$anio' WHERE `nit` = '$nit' LIMIT 1 ;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!modificado  satisfactoriisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >modificado </font></center>" ;
      return view('actualizaciondatosalumno');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -84,7 +84,7 @@ $sql = "UPDATE `exalumnos` SET `nombre` = '$nombre',`apellido` = '$apellido',`ed
 `anio` = '$anio' WHERE `nit` = '$nit' LIMIT 1 ;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Exalumno modificado  satisfactorisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >Exalumno modificado</font></center>" ;
      return view('modificarexalumno');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -128,7 +128,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE `profesores` SET `nombre` = '$nombre',`apellido` = '$apellido',`anio` = '$anio',`nit` = '$nit' WHERE `nit` = '$nit' LIMIT 1 ;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!profesor modificado satisfactorisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >profesor modificado</font></center>" ;
      return view('actualizaciondatosprofesor');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -175,7 +175,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE `exprofesores` SET `nombre` = '$nombre',`apellido` = '$apellido',`anio` = '$anio',`nit` = '$nit' WHERE `nit` = '$nit' LIMIT 1 ;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!EX-profesor modificado satisfactorisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >EX-profesor modificado</font></center>" ;
      return view('modificarexprofesor');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -218,7 +218,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE `asignaturas` SET `nombre` = '$nombre',`codigo` = '$codigo' WHERE `codigo` = '$codigo' LIMIT 1 ;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Asignatura modificada satisfactorisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >Asignatura modificada </font></center>" ;
      return view('actualizaciondatosasignatura');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -261,7 +261,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE `exasignaturas` SET `nombre` = '$nombre',`codigo` = '$codigo' WHERE `codigo` = '$codigo' LIMIT 1 ;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Ex-Asignatura modificada satisfactorisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >Ex-Asignatura modificada</font></center>" ;
      return view('modificarexasignatura');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();

@@ -55,8 +55,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registrar Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -84,7 +84,7 @@ type="text/css" />
 <br></br>
     <div class="container">
       <div class="blog-header">
-        <center><h1 class="blog-title"><font face="gabriola" color="#FD4141">~ Actualizacion de datos ~ Asignatura ~</
+        <center><h1 class="blog-title"><font face="gabriola" color="#FD4141"> Actualizacion de datos Asignatura </
         <br> <h2 class="blog-title"><font face="gabriola" color="#FD4141">Por favor ve atras si deseas hacer otra consulta</font></h2><br></br></center>
 
           
@@ -115,7 +115,7 @@ type="text/css" />
     </label>     
     </td>
     <td>
- <button type="submit" style="background:#FD4141; width:90px; height:35px" name="submit" ><font size="5"color="black" face="gabriola">Actualizar</font></button></a></td>
+ <button type="submit" style="background:#891B1B; width:90px; height:35px" name="submit" ><font size="5"color="whites" face="gabriola">Actualizar</font></button></a></td>
     </tr>
    
    </table>

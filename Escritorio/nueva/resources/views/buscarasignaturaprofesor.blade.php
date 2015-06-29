@@ -58,8 +58,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registro Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -84,7 +84,7 @@ type="text/css" />
 </div>
 </div>
  
-<h1 class="blog-title"><font face="gabriola" color="#26CE53" size="7"><center>~ Registro de Asignaturas ~ Profesor~</center></b>
+<h1 class="blog-title"><font face="gabriola" color="#26CE53" size="7"><center>Registro de Asignaturas-Profesor</center></b>
 <h5 class="blog-title"><font face="gabriola" color="#26CE53" size="5"><center>Por favor esta apunto de agregar la asignatura al profesor buscado</center></b></br>
 
 
@@ -142,7 +142,7 @@ function ejecutar_sql($sql, $conex){
       </label></td>
     </tr>
     <tr><td>
-    <center><button type="submit" style="background:#FD4141; width:200px; height:40px" name="submit" ><font size="5"color="black" face="gabriola">Guardar</font></button></a>
+    <center><button type="submit" style="background:#891B1B; width:200px; height:40px" name="submit" ><font size="5"color="white" face="gabriola">Guardar</font></button></a>
     </center></td></tr>
   </table>
     </form>
@@ -152,7 +152,7 @@ function ejecutar_sql($sql, $conex){
 
 
 
-          <center><a href ="{!!route('modificarasigpro')!!}"> <button type="submit" style="background:#FD4141; width:200px; height:40px" name="submit" ><font size="5"color="black" face="gabriola">Modificar</font></button></a>
+          <center><a href ="{!!route('modificarasigpro')!!}"> <button type="submit" style="background:#891B1B; width:200px; height:40px" name="submit" ><font size="5"color="white" face="gabriola">Modificar</font></button></a>
  </body>
 
 
