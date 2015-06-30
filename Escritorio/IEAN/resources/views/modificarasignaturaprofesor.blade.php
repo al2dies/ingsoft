@@ -20,8 +20,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registrar Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -64,7 +64,7 @@ type="text/css" />
        <tr>
     <td></td><td></td><td></td>
     <td>
-<center><button type="submit" style="background:#FD4141; width:100px; height:35px" name="submit" ><font size="5"color="black" face="gabriola">Buscar</font></button></a></center><br>
+<center><button type="submit" style="background:#891B1B; width:100px; height:35px" name="submit" ><font size="5"color="white" face="gabriola">Buscar</font></button></a></center><br>
    </form>
     </td>
     <td></td>

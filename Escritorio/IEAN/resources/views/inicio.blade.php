@@ -20,13 +20,13 @@ Es necesario iniciar sesion para acceder a nuestro servicio.
 <br />
 <br />
 <form class="form-signin" id="form-signin" name="form-signin"  method="post" action="{{route('iralmenu')}}"   role="form">  
-<div id="login-box-name" style="margin-top:20px;">Email:</div><div id="login-box-field" style="margin-top:20px;"><input name="usu" id ="usu"class="form-login" title="Username" value="" size="30" maxlength="2048" /></div>
+<div id="login-box-name" style="margin-top:20px;">Usuario:</div><div id="login-box-field" style="margin-top:20px;"><input name="usu" id ="usu"class="form-login" title="Username" value="" size="30" maxlength="2048" /></div>
 <div id="login-box-name">contraseña:</div><div id="login-box-field"><input name="pass" type="password" class="form-login" title="Password" value="" size="30" maxlength="2048" /></div>
 <br />
 <span class="login-box-options"><input type="checkbox" name="1" value="1">Recordarme</span>
 <br />
 <br />
-<center><button  style="width:110px; height:43px; background:#3D8ACE; border:1;" type="submit"  name="submit" >INICIAR</button>
+<center><button  style="width:110px; height:43px; background:#cc0000; border:1;" type="submit"  name="submit" >INICIAR</button>
 </center>
 
 

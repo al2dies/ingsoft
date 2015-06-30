@@ -52,14 +52,14 @@ type="text/css" />
     <div class="container">
 
       <div >
-      <center> <h1 class="blog-title"><font face="verdana" color="#FD4141"> Actualizacion de datos  Alumnos </font></h1>
-         <h2 class="blog-title"><font face="verdana" color="#FD4141">Por favor Ingrese el Nit del Alumno</font></h2><br></br>
+      <center> <h1 class="blog-title"><font face="gabriola" color="#FD4141"> Actualizacion de datos  Alumnos </font></h1>
+         <h2 class="blog-title"><font face="gabriola" color="#FD4141">Por favor Ingrese el Nit del Alumno</font></h2><br></br>
         </center> 
   <table  width="40%" height="100" border="0" align="center" cellpadding="11" cellspacing="11">
     <tr>
   <form id="form1" name="form1" method="get" action="{!!route('buscaral')!!}" >
     <td>
-<center> <button type="submit" style="background:#891B1B; width:100px; height:35px" name="submit" ><font size="5"color="#fff" face="verdana">Buscar</font></button></a></center  &nbps 
+<center> <button type="submit" style="background:#891B1B; width:100px; height:35px" name="submit" ><font size="5"color="#fff" face="gabriola">Buscar</font></button></a></center  &nbps 
     </td>
     <td width="400"><label>
       <input name="busque" type="text" id="busque" placeholder="Nit" required />

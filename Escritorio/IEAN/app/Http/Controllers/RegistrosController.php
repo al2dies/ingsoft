@@ -42,7 +42,7 @@ $sql = "INSERT INTO alumnos(`nombre`,`apellido`,`edad`,`nit`,`anio`) VALUES ('$n
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Agregado satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >Agregado </font></center>" ;
      return view('registroalumnos');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -88,7 +88,7 @@ $sql = "INSERT INTO exalumnos(`nombre`,`apellido`,`edad`,`nit`,`anio`) VALUES ('
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Exalumno agregado con exito!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' Exalumno agregado con exito</font></center>" ;
      return view('registroexalumno');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -132,7 +132,7 @@ $sql = "INSERT INTO profesores(`nombre`,`apellido`,`anio`,`nit`) VALUES ('$nombr
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Agregado satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Agregado </font></center>" ;
      return view('registroprofesores');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -176,7 +176,7 @@ $sql = "INSERT INTO exprofesores(`nombre`,`apellido`,`anio`,`nit`) VALUES ('$nom
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Agregado Exprofesor satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Agregado Exprofesor </font></center>" ;
      return view('registroexprofesor');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -212,7 +212,7 @@ $sql = "INSERT INTO asignaturas(`nombre`,`codigo`) VALUES ('$nombre','$cod')";
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Agregada la Asignatura satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Agregada la Nueva Asignatura</font></center>" ;
      return view('registroasignatura');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -248,7 +248,7 @@ $sql = "INSERT INTO exasignaturas(`nombre`,`codigo`) VALUES ('$nombre','$cod')";
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Agregada la EX-Asignatura satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Agregada la EX-Asignatura </font></center>" ;
      return view('registroexasignatura');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -293,7 +293,7 @@ $sql = "INSERT INTO notasalumno(`nombre`,`apellido`,`edad`,`nit`,`asignatura`,`n
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Asignatura Agregada a Estudiante satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Nota Agregada al Estudiante </font></center>" ;
      return view('registronotasalumnos');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -346,7 +346,7 @@ $sql = "INSERT INTO asignaturaprofesor(`asignatura`,`nombre`,`apellido`,`nit`,`c
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Asignatura Agregada a profesor satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Asignatura Agregada a profesor</font></center>" ;
      return view('registroasignaturaprofesor');
 } else {
 	echo "no se udo ejecutar la consulta - ".mysql_error();
@@ -388,7 +388,7 @@ $sql = "INSERT INTO asignaturaalumno(`asignatura`,`nombre`,`apellido`,`edad`,`ni
 					  
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!Asignatura Agregada a Estudiante satisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='#891B1B' >Asignatura Agregada a Estudiante</font></center>" ;
      return view('registroasignaturasalumnos');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();

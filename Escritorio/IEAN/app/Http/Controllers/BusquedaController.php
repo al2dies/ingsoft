@@ -95,7 +95,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE  `escuela`.`asignaturaalumno` SET  `asignatura` ='$asignatura' WHERE  `asignaturaalumno`.`codigo` =$codigo;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!asignatura modificada a alumno  satisfactoriisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >asignatura modificada al alumno  sa</font></center>" ;
      return view('registroasignaturasalumnos');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -142,7 +142,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE  `escuela`.`asignaturaprofesor` SET  `asignatura` ='$asignatura' WHERE  `asignaturaprofesor`.`cod` =$codigo;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!asignatura modificada a profesor satisfactoriisfactoriamente!!</font></center>" ;
+     echo "<br><center><font color='red' >asignatura modificada a profesor </font></center>" ;
      return view('registroasignaturaprofesor');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
@@ -191,7 +191,7 @@ mysql_select_db('escuela');
 $sql = "UPDATE  `escuela`.`notasalumno` SET  `nota` ='$nota' WHERE  `notasalumno`.`codigo` =$codigo;";
 // Ejecutamos la consulta
 if (mysql_query($sql, $conexion)) {
-     echo "<br><center><font color='red' >!!la nota del alumno fue modificada con exito!!</font></center>" ;
+     echo "<br><center><font color='red' >la nota del alumno fue modificada con exitos</font></center>" ;
      return view('registronotasalumnos');
 } else {
 	echo "Error al ejecutar la consulta - ".mysql_error();
