@@ -1,14 +1,10 @@
 <html>
-
-
 <head>
-
-<title>Registro Asignaturas Alumnos</title>
+<title>Actualizacion datos asignatura</title>
 <link rel="stylesheet"
 href="css/style.css"
 type="text/css" />
 </head>
-
 <body  background="img/fondo.jpg">
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,8 +20,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Registro Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -49,31 +45,35 @@ type="text/css" />
 </div>
 </div>
 </div>
- 
-<h1 class="blog-title"><font face="gabriola" color="#FD4141" size="7"><center>Registro de Asignaturas Alumnos</center></b>
-<h5 class="blog-title"><font face="gabriola" color="#FD4141" size="5"><center>Por favor Ingrese el Nit del Alumno</center></b></br>
 
 
-  <table width="40%" height="100" border="0" align="center" cellpadding="11" cellspacing="11">
+<br></br>
+    <div class="container">
+      <div class="blog-header">
+        <center><h1 class="blog-title"><font face="gabriola" color="#FD4141">~ Actualizacion de datos ~ Asignatura ~</font></h1>
+         <h2 class="blog-title"><font face="gabriola" color="#FD4141">Por favor Ingrese el codigo de la Asignatura</font></h2></center><br></br>
+        
+  <table width="40%" height="100" border="0" align="center" >
     <tr>
-    <center><form id="form1" name="form1" method="get" action="{!!route('buscarasial')!!}" >
+    <form id="form1" name="form1" method="get" action="{!!route('buscaras')!!}" >
     <td>
- <button type="submit" style="background:#891B1B; width:100px; height:35px" name="submit" ><font size="5"color="white" face="gabriola">Buscar</font></button></a></center>
+<center> <button type="submit" style="background:#FD4141; width:100px; height:35px" name="submit" ><font size="5"color="black" face="gabriola">Buscar</font></button></a></center>
     </td>
-    <td width="300"><label>
-      <input name="busque" type="text" id="busque" placeholder="nit alumno" required/>
+    <td width="400"><label>
+      <input name="busque" type="text" id="busque"  required />
     </label>   
-    </form> 
+    </form>  
     </td>
+   
+    
     </tr>
-
-  </table>
-  </div>
-<center>
-
-          <a href ="{!!route('modificarasigal')!!}"> <button type="submit" style="background:#891B1B; width:200px; height:40px" name="submit" ><font size="5"color="white" face="gabriola">Modificar</font></button></a></center><br>           
-    <DIV ALIGN="LEFT" class="container"><!------>
- </body>
-
-
+    
+   </table>
+  <br><br>
+     </div>
+       
+</div>
+</div>
+</div>
+</body>
 </html>

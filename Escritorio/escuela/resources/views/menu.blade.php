@@ -25,8 +25,8 @@ type="text/css" />
    <li class='active '><a href="#"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registrar Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -52,7 +52,7 @@ type="text/css" />
 </div>
 
 
-<marquee behavior = "alternate" scrollamount="30">  <br />      <img height="259" border="7" width="199" alt="" src="img/uno.jpg"/>  <img height="259" border="7" width="199" alt="" src="img/dos.jpg" />  <img height="259" border="7" width="199" alt="" src="img/tres.jpg"/><img height="259" border="7" width="199" alt="" src="img/cuatro.jpg"/> </marquee> <br />
+<marquee behavior = "alternate" scrollamount="4">  <br />      <img height="259" border="7" width="199" alt="" src="img/uno.jpg"/>  <img height="259" border="7" width="250" alt="" src="img/dos.jpg" />  <img height="259" border="9" width="350" alt="" src="img/tres.jpg"/> <img height="259" border="7" width="300" alt="" src="img/cuatro.jpg"/> </marquee> <br />
 
 </body>
 </html>

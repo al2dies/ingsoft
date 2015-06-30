@@ -24,8 +24,8 @@ type="text/css" />
    <li class='active '><a href="{!! route('menu') !!}"><span>Inicio</span></a></li>
    <li class='has-sub '><a href='#'><span>Alumnos</span></a>
       <ul>
-         <li><a href="{!! route('registroal')!!}"><span>Registro Alumnos</span></a></li>
-         <li><a href="{!!route('registronotasal')!!}"><span>Notas Alumnos</span></a></li>
+         <li><a href="{!! route('registroal')!!}"><span>Registro de Alumnos</span></a></li>
+         <li><a href="{!!route('registronotasal')!!}"><span>Registrar Notas Alumnos</span></a></li>
         <li><a href="{!!route('registroasigal')!!}"><span>Asignatura de alumnos</span></a></li>
       </ul>
    </li>
@@ -51,7 +51,7 @@ type="text/css" />
 </div>
 
  <br></br>
-<h1 class="blog-title"><font face="gabriola" color="#FD4141" size="7"><center>~ REGISTRO DE EX-PROFESORES ~</center></b></br>
+<h1 class="blog-title"><font face="gabriola" color="#FD4141" size="7"><center>REGISTRO DE EX-PROFESORES</center></b></br>
 <form id="form1" name="form1" method="post" action="{!!route('guardarexprofesor')!!}">
   <table width="40%" height="200" border="0" align="center" cellpadding="11" cellspacing="11">
     <tr>
@@ -79,7 +79,7 @@ type="text/css" />
       </label></td>
     </tr>
     <tr><td>
-    <center><button type="submit" style="background:#FD4141; width:200px; height:40px" name="submit" ><font size="5"color="black" face="gabriola">Agregar</font></button></a>
+    <center><button type="submit" style="background:#891B1B; width:200px; height:40px" name="submit" ><font size="5"color="white" face="gabriola">Agregar</font></button></a>
     </center>
     </table>
   </div>
@@ -87,7 +87,7 @@ type="text/css" />
 </form>
 
 
-         <center> <a href ="{!!route('modificarexpro')!!}"> <button type="submit" style="background:#FD4141; width:200px; height:40px" name="submit" ><font size="5"color="black" face="gabriola">Actualizar</font></button></a>
+         <center> <a href ="{!!route('modificarexpro')!!}"> <button type="submit" style="background:#891B1B; width:200px; height:40px" name="submit" ><font size="5"color="white" face="gabriola">Actualizar</font></button></a>
            
     <DIV ALIGN="LEFT" class="container"><!------>
  </body>
